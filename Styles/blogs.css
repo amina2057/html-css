@@ -1,0 +1,42 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+h1{
+    font-style: italic;
+    font-size: 38px;
+    color: blue;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+.paragraph {
+    margin: auto;
+    padding: 50px;
+    font-weight: 900;
+    border-style: solid;
+    background: linear-gradient(blue,pink);
+}
+nav > ul > li {
+    display: inline;
+    margin-right: 30px;
+       
+}
+nav li > a {
+    text-decoration: none;
+    text-align: right;
+}
+footer {
+    text-align: center;
+    margin-top: 60px;
+}
+.text {
+    font-style: italic;
+font-size: 30px;
+color: blue;
+}
+nav {
+    text-align: right;
+    padding-top: 20px;
+}

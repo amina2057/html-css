@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td,th {
+            border:2px solid black;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            /* padding:5px,10px shortcut */
+        }
+        h1, table, ul {
+            font-size: 40px;
+            color: blueviolet;
+        }
+    
+    </style>
+    <link rel="stylesheet" href="Styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio-video.html">Intertainment</a>
+                    <ul class="dropdown">
+                        <li><a href="audio-video.html">Intertainment</a>
+                            <ul class="dropdown">
+                                <li><a href="audio-video.html">Intertainment</a></li>
+                                <li><a href="Form.html">Form</a></li>
+                                <li><a href="Table.html">Table</a></li>
+                                <li><a href="My-Blogs.html">Blogs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Form.html">Form</a>
+                            <ul class="dropdown">
+                                <li><a href="audio-video.html">Intertainment</a></li>
+                                <li><a href="Form.html">Form</a></li>
+                                <li><a href="Table.html">Table</a></li>
+                                <li><a href="My-Blogs.html">Blogs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Table.html">Table</a>
+                            <ul class="dropdown">
+                                <li><a href="audio-video.html">Intertainment</a></li>
+                                <li><a href="Form.html">Form</a></li>
+                                <li><a href="Table.html">Table</a></li>
+                                <li><a href="My-Blogs.html">Blogs</a></li>
+                            </ul>
+                           </li>
+                        <li><a href="My-Blogs.html">Blogs</a>
+                            <ul class="dropdown">
+                                <li><a href="audio-video.html">Intertainment</a></li>
+                                <li><a href="Form.html">Form</a></li>
+                                <li><a href="Table.html">Table</a></li>
+                                <li><a href="My-Blogs.html">Blogs</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="Form.html">Form</a>
+                    <ul class="dropdown">
+                        <li><a href="audio-video.html">Intertainment</a>
+                            <ul class="dropdown">
+                                <li><a href="audio-video.html">Intertainment</a></li>
+                                <li><a href="Form.html">Form</a></li>
+                                <li><a href="Table.html">Table</a></li>
+                                <li><a href="My-Blogs.html">Blogs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Form.html">Form</a>
+                            <ul class="dropdown">
+                                <li><a href="audio-video.html">Intertainment</a></li>
+                                <li><a href="Form.html">Form</a></li>
+                                <li><a href="Table.html">Table</a></li>
+                                <li><a href="My-Blogs.html">Blogs</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Table.html">Table</a></li>
+                        <li><a href="My-Blogs.html">Blogs</a></li>
+                    </ul>
+                </li>
+                <li><a href="Table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="audio-video.html">Intertainment</a></li>
+                        <li><a href="Form.html">Form</a></li>
+                        <li><a href="Table.html">Table</a></li>
+                        <li><a href="My-Blogs.html">Blogs</a></li>
+                    </ul></li>
+                <li><a href="My-Blogs.html">Blogs</a>
+                    <ul class="dropdown">
+                        <li><a href="audio-video.html">Intertainment</a></li>
+                        <li><a href="Form.html">Form</a></li>
+                        <li><a href="Table.html">Table</a></li>
+                        <li><a href="My-Blogs.html">Blogs</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1>HTML Table </h1>
+    <ul>
+        <li>Table-Tag:table</li>
+        <li>Table head:thead</li>
+        <li>Table Body:tbody</li>
+        <li>Table Footer:tfoot</li>
+        <li>Table Row:tr</li>
+        <li> caption tag</li>
+    </ul>
+    <h1> Employee</h1>
+    <table>
+        <Caption>Employee Salary Data</Caption>
+        <thead>
+            <tr>
+                <th>NO</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Amina Khatun</td>
+                <td>Softwer Enginear</td>
+                <td>$50,000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Anika Tabassum</td>
+                <td>Web Designer</td>
+                <td>$30,000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ratan Babu</td>
+                <td>Netwowrk Engineer</td>
+                <td>$45,000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Novel Shorma</td>
+                <td>Programmer</td>
+                <td>$40,000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ShaifulIslam</td>
+                <td>Softwer Engineer</td>
+                <td>$42,000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Total Employee:5</td>
+            </tr>
+        </tfoot>
+    </table>
+</main>
+</body>
+</html>
